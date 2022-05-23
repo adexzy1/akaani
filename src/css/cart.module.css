@@ -1,0 +1,153 @@
+.wrapper {
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  min-height: 100vh;
+  min-width: 31rem;
+  box-shadow: 0px 2px 10px 0 rgba(182, 182, 182, 0.25);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100vh);
+  transition: all 0.5s ease;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 2rem;
+}
+
+.topbar > div {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.topbar > div > svg {
+  cursor: pointer;
+}
+
+.topbar > div > p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: auto;
+  border-top: 1px solid #f0f0f0;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total > span {
+  font-size: 15px;
+  color: #c0c0c0;
+}
+
+.total > h5 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.footer > button {
+  min-width: 179px;
+  border: none;
+  background-color: #549a9a;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cartItemsWrapper {
+  padding: 0 2rem;
+}
+
+.carItemContainer {
+  display: flex;
+  background-color: rgba(86, 177, 160, 0.2);
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 110px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.leftCol {
+  display: flex;
+  gap: 14px;
+  overflow: hidden;
+}
+
+.leftCol > img {
+  background-color: #c9e8d9;
+  padding: 0.8rem 0.9rem;
+  border-radius: 100%;
+}
+
+.leftCol > div > span {
+  font-size: 12px;
+  color: #514d4d;
+}
+
+.leftCol > div > p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.middleCol {
+  background-color: #fff;
+  width: 80px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.middleCol > svg {
+  position: absolute;
+  left: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.middleCol > select {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 10px;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.rightCol {
+  display: flex;
+}
+
+.rightCol > p {
+  background-color: #406767;
+  color: #fff;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 100%;
+  margin-left: -10px;
+}
+
+.rightCol > p:nth-child(2) {
+  background-color: #d1b378;
+}
+
+.isActive {
+  transform: translateX(0);
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  font-size: 14px;
+  display: flex;
+  border-bottom: 1px solid #f0f0f0;
+  margin-top: 8px;
+  position: relative;
+}
+
+.wrapper > p {
+  cursor: pointer;
+  color: #c0c0c0;
+  padding: 10px 16px;
+}
+
+.wrapper > p:first-child {
+  color: #56b1a0;
+}
+
+.active {
+  height: 2px;
+  width: 7%;
+  background: #56b1a0;
+  position: absolute;
+  bottom: 0;
+}

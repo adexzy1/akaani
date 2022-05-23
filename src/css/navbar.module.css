@@ -1,0 +1,87 @@
+.navbarContainer {
+  flex: 0.255;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #f0f0f0;
+}
+
+.logo {
+  margin: auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+.logo > img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.navlinksContainer {
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 16px;
+  color: #989898;
+  font-weight: 300;
+  margin-top: 1.5rem;
+  padding: 0.7rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.navlinks > svg {
+  font-size: 1.7rem;
+}
+
+.navlinks:hover {
+  background-color: #549a9a;
+  color: #fff;
+  border-radius: 10px;
+  padding-left: 8px;
+  font-weight: 600;
+}
+
+.profile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.profile > div {
+  background-color: #1a8282;
+  border-radius: 100%;
+  padding: 0.9rem 1.3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.profile > h3 {
+  font-weight: 600;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.profile > p {
+  font-weight: 200;
+  color: #c0c0c0;
+  font-size: 14px;
+}
+
+.profile > button {
+  background-color: transparent;
+  border: 1px solid #c0c0c0;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

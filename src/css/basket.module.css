@@ -1,0 +1,19 @@
+.basketWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.createBasketBtn {
+  min-width: 130px;
+  background-color: #549a9a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
